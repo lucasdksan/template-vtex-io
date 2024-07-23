@@ -1,1 +1,1 @@
-# template-vtex-io
+# Template VTEX IO
