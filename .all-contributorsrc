@@ -1,8 +1,8 @@
 {
-    "projectName": "store-theme",
-    "projectOwner": "vtex-apps",
+    "projectName": "template-store",
+    "projectOwner": "lucasdksan",
     "repoType": "github",
-    "repoHost": "https://github.com",
+    "repoHost": "https://github.com/lucasdksan/template-vtex-io",
     "files": [
         "docs/README.md"
     ],
@@ -11,12 +11,13 @@
     "commitConvention": "none",
     "contributors": [
         {
-            "login": "hugocostadev",
-            "name": "Hugo Costa",
-            "avatar_url": "https://avatars2.githubusercontent.com/u/20212776?v=4",
-            "profile": "http://www.hugoccosta.com",
+            "login": "lucasdksan",
+            "name": "Lucas da Silva Leoncio",
+            "avatar_url": "https://avatars.githubusercontent.com/u/47578616?v=4",
+            "profile": "https://www.linkedin.com/in/lucas-silva-464b45164/",
             "contributions": [
-                "doc"
+                "doc",
+                "struct"
             ]
         }
     ],
