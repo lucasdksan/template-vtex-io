@@ -1,5 +1,5 @@
 {
-    "vendor": "vtex",
+    "vendor": "agencian1",
     "name": "template-store",
     "version": "1.0.0",
     "builders": {
@@ -92,11 +92,8 @@
         "vtex.order-items": "0.x",
         "vtex.checkout-graphql": "0.x",
         "vtex.pixel-manager": "1.x",
-        "vtex.formatted-price": "0.x",
-        "damyller.catwalk-genie-web": "1.x"
+        "vtex.formatted-price": "0.x"
     },
-    "peerDependencies": {
-        "vtex.reviews-and-ratings": "3.x"
-    },
+    "peerDependencies": {},
     "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -69,7 +69,7 @@ Start with all commands
 
 - **Git**: 2.37.3
 - **NVM**: 1.1.9
-- **NodeJS**: 14.20.0
+- **NodeJS**: 18.13.0
 - **VTEX-CLI**: vtex/3.8.1-beta.e606849e win32-x64 node-v12.12.0
 
 
