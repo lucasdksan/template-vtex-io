@@ -67,26 +67,11 @@ Start with all commands
 
 ## Technologies
 
-- **Git**: 2.34.1
-- **NVM**: 0.39.3
-- **NodeJS**: 18.13.0
+- **Git**: 2.37.3
+- **NVM**: 1.1.9
+- **NodeJS**: 14.20.0
 - **VTEX-CLI**: vtex/3.8.1-beta.e606849e win32-x64 node-v12.12.0
 
-## Libraries
-
-- **autoprefixer**: 10.x,
-- **chokidar**: 3.x,
-- **concurrently**: 8.x,
-- **eslint**: 8.x,
-- **eslint-config-airbnb-base**: 15.x,
-- **eslint-config-prettier**: 8.x,
-- **eslint-plugin-import**: 2.x,
-- **eslint-plugin-prettier**: 4.x,
-- **glob**: 10.x,
-- **postcss**: 8.x,
-- **postcss-cli**: 10.x,
-- **prettier**: 2.x,
-- **sass**: 1.x
 
 ## VSCode Extensions
 
