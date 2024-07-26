@@ -1,0 +1,75 @@
+{
+    "header-layout.mobile": {
+        "title": "Header - Mobile",
+        "children": [
+            "flex-layout.row#container-layout-mobile"
+        ]
+    },
+    "flex-layout.row#container-layout-mobile": {
+        "title": "Área Principal do Header Mobile",
+        "props": {
+            "blockClass": [
+                "container-layout-mobile"
+            ],
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.row#left-side-layout-mobile",
+            "flex-layout.row#right-side-layout-mobile"
+        ]
+    },
+    "flex-layout.row#left-side-layout-mobile": {
+        "title": "Lado Esquerdo do Header Mobile",
+        "props": {
+            "blockClass": [
+                "side-layout-mobile",
+                "left-side-layout-mobile"
+            ]
+        },
+        "children": [
+            "drawer#drawe-layout-mobile",
+            "logo#logo-layout-mobile"
+        ]
+    },
+    "flex-layout.row#right-side-layout-mobile": {
+        "title": "Lado Direito do Header Mobile",
+        "props": {
+            "blockClass": [
+                "side-layout-mobile",
+                "right-side-layout-mobile"
+            ]
+        },
+        "children": [
+            "search-bar-mobile",
+            "minicart.v2",
+            "login#login-layout-mobile"
+        ]
+    },
+    "drawer#drawe-layout-mobile": {
+        "children": []
+    },
+    "logo#logo-layout-mobile": {
+        "props": {
+            "blockClass": [
+                "logo-layout-mobile"
+            ],
+            "title": "Logo da Loja",
+            "href": "/",
+            "url": "assets/components/header/logo.png",
+            "width": "126",
+            "height": "18"
+        }
+    },
+    "login#login-layout-mobile": {
+        "props": {
+            "showIconProfile": true,
+            "iconLabel": "Entrar",
+            "labelClasses": "label-login-layout-mobile",
+            "blockClass": [
+                "login-layout-mobile"
+            ]
+        }
+    }
+}

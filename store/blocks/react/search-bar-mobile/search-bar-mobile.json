@@ -1,0 +1,27 @@
+{
+    "search-bar-mobile": {
+        "title": "Barra de Pesquisa Mobile",
+        "props": {
+            "SearchBar": "search-bar",
+            "SearchBarIcon": "image#search-bar-mobile-icon",
+            "SearchBarContainer": "flex-layout.row#search-bar-mobile-container"
+        }
+    },
+    "image#search-bar-mobile-icon": {
+        "props": {
+            "title": "Icone de pesquisa",
+            "alt": "Icone de pesquisa",
+            "src": "assets/react/search-icon.png",
+            "maxWidth": "24",
+            "maxHeight": "24",
+            "blockClass": [
+                "search-bar-mobile-icon"
+            ]
+        }
+    },
+    "flex-layout.row#search-bar-mobile-container": {
+        "props": {
+            "blockClass": "search-bar-mobile-container"
+        }
+    }
+}

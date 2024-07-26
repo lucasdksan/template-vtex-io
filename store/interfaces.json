@@ -1,1 +1,5 @@
-{}
+{
+    "search-bar-mobile": {
+        "component": "SearchBarMobile"
+    }
+}
