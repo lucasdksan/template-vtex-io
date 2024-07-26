@@ -1,0 +1,1 @@
+export const classGenerator = (preffix, suffix) => preffix + "--" + suffix;

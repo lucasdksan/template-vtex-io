@@ -1,17 +1,20 @@
 import React, { useState } from "react";
+import { classGenerator } from "../../utils/classGenerator";
 
 const SearchBarMobile = ({ SearchBar, SearchBarIcon, SearchBarContainer }) => {
     const [show, setShow] = useState(false);
-    const handleToggle = () => setShow(prev => !prev);;
+    const classButton = classGenerator("search-bar-mobile", "button");
+
+    const handleToggle = () => setShow(prev => !prev);
 
     return show
         ? (
             <SearchBarContainer>
                 <SearchBar />
-                <button className={styles["SearchBar--button-close"]} onClick={handleToggle}>Fechar</button>
+                <button className={classButton} onClick={handleToggle}>Fechar</button>
             </SearchBarContainer>
         )
-        : <button className={styles["SearchBar--button"]} onClick={handleToggle}><SearchBarIcon /></button>
+        : <button className={classButton} onClick={handleToggle}><SearchBarIcon /></button>;
 }
 
 export default SearchBarMobile;
