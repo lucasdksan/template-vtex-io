@@ -1,0 +1,13 @@
+.logoLink {
+    &--logo-layout-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.logoContainer {
+    &--logo-layout-mobile {
+        padding: 0px !important;
+    }
+}
