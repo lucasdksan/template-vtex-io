@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#minicart-footer": {
+        "props": {
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true,
+            "blockClass": [
+                "minicart-footer"
+            ]
+        },
+        "children": [
+            "minicart-summary#minicart-footer",
+            "minicart-checkout-button#minicart-footer"
+        ]
+    },
+    "minicart-summary#minicart-footer": {
+        "blocks": [
+            "checkout-summary.compact#minicart-footer"
+        ]
+    },
+    "checkout-summary.compact#minicart-footer": {
+        "children": [
+            "summary-totalizers#minicart-footer"
+        ],
+        "props": {
+            "totalizersToShow": [
+                "Items",
+                "Discounts"
+            ]
+        }
+    },
+    "summary-totalizers#minicart-footer": {
+        "props": {
+            "showDeliveryTotal": false,
+            "showTotal": true,
+            "blockClass": [
+                "minicart-footer"
+            ]
+        }
+    },
+    "minicart-checkout-button#minicart-footer": {
+        "title": "Ir para checkout",
+        "props": {
+            "text": "ir para pagamento",
+            "blockClass": "minicart-footer"
+        }
+    }
+}

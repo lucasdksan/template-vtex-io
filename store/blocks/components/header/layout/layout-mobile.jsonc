@@ -61,15 +61,5 @@
             "width": "126",
             "height": "18"
         }
-    },
-    "login#login-layout-mobile": {
-        "props": {
-            "showIconProfile": true,
-            "iconLabel": "Entrar",
-            "labelClasses": "label-login-layout-mobile",
-            "blockClass": [
-                "login-layout-mobile"
-            ]
-        }
     }
 }

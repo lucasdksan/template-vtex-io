@@ -1,0 +1,61 @@
+{
+    "minicart-empty-state": {
+        "children": [
+            "image#minicart-empty-state-icon",
+            "rich-text#minicart-empty-state-title",
+            "rich-text#minicart-empty-state-text",
+            "link#minicart-mepty-state-link-feminino",
+            "link#minicart-mepty-state-link-masculino"
+        ]
+    },
+    "image#minicart-empty-state-icon": {
+        "title": "Imagem central carrinho vazio",
+        "props": {
+            "maxHeight": "60",
+            "src": "",
+            "blockClass": [
+                "minicart-empty-state-icon"
+            ]
+        }
+    },
+    "rich-text#minicart-empty-state-title": {
+        "title": "Título de carrinho vazio",
+        "props": {
+            "text": "Sua sacola está vazia",
+            "blockClass": [
+                "minicart-empty-state-title"
+            ]
+        }
+    },
+    "rich-text#minicart-empty-state-text": {
+        "title": "Título de carrinho vazio",
+        "props": {
+            "text": "Você ainda não adicionou nenhuma peça na sua sacola.",
+            "blockClass": [
+                "minicart-empty-state-text"
+            ]
+        }
+    },
+    "link#minicart-mepty-state-link-feminino": {
+        "title": "Feminino",
+        "props": {
+            "label": "feminino",
+            "href": "/moda-feminina?utmi_p=_&utmi_pc=Html&utmi_cp=2020+N1+MiniCart",
+            "blockClass": [
+                "minicart-mepty-state-link",
+                "minicart-mepty-state-link-feminino"
+            ]
+        }
+    },
+    "link#minicart-mepty-state-link-masculino": {
+        "title": "Masculino",
+        "props": {
+            "label": "masculino",
+            "href": "/moda-masculina?utmi_p=_&utmi_pc=Html&utmi_cp=2020+N1+MiniCart",
+            "blockClass": [
+                "minicart-mepty-state-link",
+                "minicart-mepty-state-link-masculino"
+            ]
+        }
+    }
+}
