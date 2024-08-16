@@ -1,5 +1,19 @@
+@import "../../theme/index";
+
 .imageElementLink {
     &--banner-hero {
         width: 100%;
+    }
+}
+
+.paginationDotsContainer {
+    &--banner-hero {
+        bottom: 50px;
+    }
+}
+
+.paginationDot {
+    &--banner-hero--isActive {
+        background-color: $color-default;
     }
 }

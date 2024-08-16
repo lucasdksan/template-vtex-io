@@ -55,8 +55,6 @@
                 "timeout": 3000
             },
             "blockClass": [
-                "slider-dots-light",
-                "slider-arrow-light",
                 "banner-hero"
             ]
         }
