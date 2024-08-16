@@ -1,0 +1,64 @@
+{
+    "list-context.image-list#banner-hero": {
+        "title": "Banner principal",
+        "props": {
+            "height": 1000,
+            "images": [
+                {
+                    "image": "assets/pages/home/banner-hero.png",
+                    "mobileImage": "assets/pages/home/banner-hero-mb.png",
+                    "description": "banner principal",
+                    "loading": "auto",
+                    "link": {
+                        "url": "/",
+                        "openNewTab": false
+                    }
+                },
+                {
+                    "image": "assets/pages/home/banner-hero.png",
+                    "mobileImage": "assets/pages/home/banner-hero-mb.png",
+                    "description": "banner principal",
+                    "loading": "auto",
+                    "link": {
+                        "url": "/",
+                        "openNewTab": false
+                    }
+                },
+                {
+                    "image": "assets/pages/home/banner-hero.png",
+                    "mobileImage": "assets/pages/home/banner-hero-mb.png",
+                    "description": "banner principal",
+                    "loading": "auto",
+                    "link": {
+                        "url": "/",
+                        "openNewTab": false
+                    }
+                }
+            ]
+        },
+        "children": [
+            "slider-layout#banner-hero"
+        ]
+    },
+    "slider-layout#banner-hero": {
+        "title": "Slider das imagens",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always",
+            "infinite": true,
+            "autoplay": {
+                "timeout": 3000
+            },
+            "blockClass": [
+                "slider-dots-light",
+                "slider-arrow-light",
+                "banner-hero"
+            ]
+        }
+    }
+}

@@ -4,6 +4,10 @@
             margin: 0px;
             padding: 0px;
 
+            &:hover {
+                background-color: transparent !important;
+            }
+
             :global(.vtex-button__label) {
                 padding: 0px !important;
                 margin: 0px;

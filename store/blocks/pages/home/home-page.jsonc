@@ -1,5 +1,7 @@
 {
     "store.home": {
-        
+        "blocks": [
+            "list-context.image-list#banner-hero"
+        ]
     }
 }
