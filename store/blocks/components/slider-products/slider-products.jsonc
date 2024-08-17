@@ -1,0 +1,18 @@
+{
+    "slider-layout#slider-products-base": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always",
+            "centerMode": "to-the-left",
+            "blockClass": [
+                "slider-products-base"
+            ]
+        }
+    }
+}

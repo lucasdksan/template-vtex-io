@@ -1,0 +1,12 @@
+{
+    "rich-text#shelf-template-title": {
+        "title": "Título do template",
+        "props": {
+            "text": "NEW ARRIVALS",
+            "textAlignment": "CENTER",
+            "blockClass": [
+                "shelf-template-title"
+            ]
+        }
+    }
+}

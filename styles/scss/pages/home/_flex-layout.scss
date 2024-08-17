@@ -10,6 +10,14 @@
             padding: 0px !important;
         }
     }
+
+    &--shelf-template-container {
+        padding: 0px 20px;
+
+        :global(.vtex-store-components-3-x-container) {
+            padding: 0px;
+        }
+    }
 }
 
 .flexRowContent {

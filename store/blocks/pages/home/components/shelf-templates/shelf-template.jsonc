@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#shelf-template-container": {
+        "title": "Container da Prateleira",
+        "props": {
+            "blockClass": [
+                "shelf-template-container"
+            ]
+        },
+        "children": [
+            "flex-layout.col#shelf-template-content"
+        ]
+    },
+    "flex-layout.col#shelf-template-content": {
+        "title": "Alinhamento da Prateleira",
+        "props": {
+            "blockClass": [
+                "shelf-template-content"
+            ]
+        },
+        "children": [
+            "rich-text#shelf-template-title",
+            "list-context.product-list#shelf-template",
+            "link#view-all"
+        ]
+    },
+    "list-context.product-list#shelf-template": {
+        "title": "Lista de produtos",
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 16,
+            "hideUnavailableItems": true
+        },
+        "blocks": [
+            "product-summary.shelf#shelf-product"
+        ],
+        "children": [
+            "slider-layout#slider-products-base"
+        ]
+    }
+}

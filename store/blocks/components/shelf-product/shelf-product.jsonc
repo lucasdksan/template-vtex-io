@@ -1,0 +1,15 @@
+{
+    "product-summary.shelf#shelf-product" :{
+        "title": "Template da Prateleira",
+        "props": {
+            "blockClass": [
+                "shelf-product"
+            ]
+        },
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price"
+        ]
+    }
+}

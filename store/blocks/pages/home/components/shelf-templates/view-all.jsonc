@@ -1,0 +1,8 @@
+{
+    "link#view-all": {
+        "props": {
+            "label": "Ver Todos",
+            "href": ""
+        }
+    }
+}

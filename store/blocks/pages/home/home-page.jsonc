@@ -2,7 +2,8 @@
     "store.home": {
         "blocks": [
             "list-context.image-list#banner-hero",
-            "flex-layout.row#brand-bar-container"
+            "flex-layout.row#brand-bar-container",
+            "flex-layout.row#shelf-template-container"
         ]
     }
 }

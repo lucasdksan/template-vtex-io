@@ -1,0 +1,19 @@
+@import "../../theme/index";
+
+.container {
+    &--shelf-template-title {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.paragraph {
+    &--shelf-template-title {
+        font-family: "Anton SC", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: $color-default;
+    }
+}

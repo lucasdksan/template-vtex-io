@@ -1,0 +1,47 @@
+{
+    "image#brand-bar-img-1": {
+        "props": {
+            "src": "assets/pages/home/versace-logo.png",
+            "alt": "brand image",
+            "blockClass": [
+                "brand-img"
+            ]
+        }
+    },
+    "image#brand-bar-img-2": {
+        "props": {
+            "src": "assets/pages/home/zara-logo.png",
+            "alt": "brand image",
+            "blockClass": [
+                "brand-img"
+            ]
+        }
+    },
+    "image#brand-bar-img-3": {
+        "props": {
+            "src": "assets/pages/home/gucci-logo.png",
+            "alt": "brand image",
+            "blockClass": [
+                "brand-img"
+            ]
+        }
+    },
+    "image#brand-bar-img-4": {
+        "props": {
+            "src": "assets/pages/home/prada-logo.png",
+            "alt": "brand image",
+            "blockClass": [
+                "brand-img"
+            ]
+        }
+    },
+    "image#brand-bar-img-5": {
+        "props": {
+            "src": "assets/pages/home/ck-logo.png",
+            "alt": "brand image",
+            "blockClass": [
+                "brand-img"
+            ]
+        }
+    }
+}
