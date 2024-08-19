@@ -8,7 +8,7 @@
             },
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
-            "showPaginationDots": "always",
+            "showPaginationDots": "never",
             "centerMode": "to-the-left",
             "blockClass": [
                 "slider-products-base"

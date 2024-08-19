@@ -1,0 +1,11 @@
+@import "../../theme/index";
+
+.paginationDotsContainer {
+    &--slider-products-base {
+        .paginationDot {
+            &--slider-products-base--isActive {
+                background-color: $color-default;
+            }
+        }
+    }
+}

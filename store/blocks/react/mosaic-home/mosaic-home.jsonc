@@ -1,0 +1,15 @@
+{
+    "mosaic-home": {
+        "props": {
+            "MosaicContainer": "flex-layout.row#mosaic-home-container"
+        }
+    },
+    "flex-layout.row#mosaic-home-container": {
+        "title": "Container do Mosaico",
+        "props": {
+            "blockClass": [
+                "mosaic-home-container"
+            ]
+        }
+    }
+}

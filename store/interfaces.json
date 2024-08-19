@@ -1,5 +1,8 @@
 {
     "search-bar-mobile": {
         "component": "SearchBarMobile"
+    },
+    "mosaic-home": {
+        "component": "MosaicHome"
     }
 }

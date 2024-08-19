@@ -2,7 +2,10 @@
     "link#view-all": {
         "props": {
             "label": "Ver Todos",
-            "href": ""
+            "href": "",
+            "blockClass": [
+                "view-all"
+            ]
         }
     }
 }

@@ -1,0 +1,28 @@
+@import "../../theme/index";
+
+.label {
+    &--view-all {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: $color-default;
+    }
+}
+
+.link {
+    &--view-all {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 16px 54px;
+        gap: 12px;
+        height: 46px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 62px;
+        text-decoration: none;
+    }
+}

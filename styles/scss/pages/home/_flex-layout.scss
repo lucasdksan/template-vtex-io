@@ -13,6 +13,7 @@
 
     &--shelf-template-container {
         padding: 0px 20px;
+        margin-top: 40px;
 
         :global(.vtex-store-components-3-x-container) {
             padding: 0px;
@@ -27,6 +28,12 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        gap: 25px;
+    }
+}
+
+.flexCol {
+    &--shelf-template-content {
         gap: 25px;
     }
 }
