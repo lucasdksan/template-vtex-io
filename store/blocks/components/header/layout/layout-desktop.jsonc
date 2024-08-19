@@ -1,5 +1,7 @@
 {
     "header-layout.desktop": {
-        "children": []
+        "children": [
+            "head-includes"
+        ]
     }
 }

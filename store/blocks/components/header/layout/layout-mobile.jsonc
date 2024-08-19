@@ -2,7 +2,8 @@
     "header-layout.mobile": {
         "title": "Header - Mobile",
         "children": [
-            "flex-layout.row#container-layout-mobile"
+            "flex-layout.row#container-layout-mobile",
+            "head-includes"
         ]
     },
     "flex-layout.row#container-layout-mobile": {

@@ -4,5 +4,8 @@
     },
     "mosaic-home": {
         "component": "MosaicHome"
+    },
+    "head-includes": {
+        "component": "HeadIncludes"
     }
 }
