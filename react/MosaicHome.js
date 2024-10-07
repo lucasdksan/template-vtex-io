@@ -1,3 +1,3 @@
-import MosaicHome from "./layouts/MosaicHome";
+import MosaicHome from "./blocks/MosaicHome";
 
 export default MosaicHome;

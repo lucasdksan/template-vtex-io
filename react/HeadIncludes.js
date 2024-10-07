@@ -1,3 +1,3 @@
-import HeadIncludes from "./layouts/HeadIncludes";
+import HeadIncludes from "./blocks/HeadIncludes";
 
 export default HeadIncludes;
